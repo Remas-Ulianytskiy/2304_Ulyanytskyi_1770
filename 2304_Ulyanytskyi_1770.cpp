@@ -24,7 +24,7 @@ int main()
     find_common_elements(FIRST_ARRAY, SECOND_ARRAY, result_array);
 
     cout << "Common elements: ";
-    for (int element : result_array) {
+    for (auto& element : result_array) {
         cout << element << " ";
     }
 
