@@ -5,7 +5,7 @@ using namespace std;
 
 void print_array_elements(const vector<int> & array) {
     for (auto& element : array)
-        cout << element << " ";
+        cout << element << ' ';
 }
 
 void find_common_elements(const vector<int> & ARRAY1, const vector<int> & ARRAY2, vector<int> & result) {
